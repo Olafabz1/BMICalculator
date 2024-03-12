@@ -1,0 +1,101 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ display:flex;
+ align-items: center;
+ justify-content: center;
+ min-height:100vh;
+ background-color:rgb(73, 126, 147);
+}
+
+.container{
+ width: 500px;
+ height:80vh;
+ background-color: rgb(9, 94, 136);
+ border-radius: 12px;
+ text-align: center;
+ padding-top:15px;
+}
+
+.box{
+ width: 300px;
+ height:90px;
+ background-color:#ffffff;
+ margin:20px auto;
+ padding-top: 8px;
+ border-radius: 4px;
+}
+
+.box input {
+ width: 80px;
+ height: 30px;
+ text-align: center;
+}
+
+.gender{
+ width: 300px;
+ height:50px;
+ background-color: #ffffff;
+ margin: 20px auto;
+ padding-top: 8px;
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ border-radius: 4px;
+}
+
+.containerHW{
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ width:300px;
+ height:90px;
+ background-color: #ffffff;
+ margin: auto;
+ border-radius: 4px;
+}
+.containerHW input{
+ width: 80px;
+ height:30px;
+ text-align: center;
+}
+
+.button {
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
+ width: 300px;
+ margin: auto;
+}
+
+button {
+ width: 100px;
+ height: 30px;
+ margin-top: 20px;
+ background-color: rgb(135, 206, 235);
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+
+}
+
+.result{
+  margin-top: 20px;
+}
+
+#bmi-output{
+ width: 100px;
+ height:30px;
+ margin:20px  auto;
+ padding-top: 5px;
+ background-color: rgb(135, 206, 235) ;
+ border-radius: 4px;
+}
+
+
+
+
